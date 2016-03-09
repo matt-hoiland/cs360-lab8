@@ -9,7 +9,7 @@ This server is currently hosted at [http://ec2-52-26-12-151.us-west-2.compute.am
 ## `POST /comment`
 
 Format:
-```json
+```javascript
 {
   "Name": string,
   "Comment": string
@@ -21,7 +21,7 @@ Stores the given comment in the mongo database
 ## `GET /comment`
 
 Response format:
-```json
+```javascript
 [
   {
     __v: number,
